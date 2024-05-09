@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0BE81C56-3F66-4ADE-BB7A-4138B927D02D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{49B7839F-DB7F-4A1C-AB59-51FCFFE89F26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6438CBE5-89E4-43FB-9713-2D1C13C79EC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E7EB6978-7DD4-4B43-A56A-3B59B27CEF9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{78256E3C-6304-43B7-BA66-33E7FE32E766}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{F1C60F3A-646F-4604-9C20-9FF73CD3588F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{9B671047-E48A-4AF1-93A8-D97949F3986B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalDoctorManagement.Api.Core.Domain", "HospitalDoctorManagement.Api.Core.Domain\HospitalDoctorManagement.Api.Core.Domain.csproj", "{6D5543A2-9138-4058-94EE-307254A123FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalDoctorManagement.Infrastructure.Persistance", "HospitalDoctorManagement.Infrastructure.Persistance\HospitalDoctorManagement.Infrastructure.Persistance.csproj", "{DADA2C42-638F-4ECC-8A31-9ABF462BA7E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalDoctorManagement.Api.WebApi", "HospitalDoctorManagement.Api.WebApi\HospitalDoctorManagement.Api.WebApi.csproj", "{B5F09F97-A997-42BE-A465-B59E8600CF67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalDoctorManagement.Api.Core.Application", "HospitalDoctorManagement.Api.Core.Application\HospitalDoctorManagement.Api.Core.Application.csproj", "{94BFCD09-641D-4E57-BCBF-2006216422D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalDoctorManagement.Common", "HospitalDoctorManagement.Common\HospitalDoctorManagement.Common.csproj", "{D16F3C37-BC7B-4711-8E09-E33F224A35BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D5543A2-9138-4058-94EE-307254A123FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5543A2-9138-4058-94EE-307254A123FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5543A2-9138-4058-94EE-307254A123FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5543A2-9138-4058-94EE-307254A123FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DADA2C42-638F-4ECC-8A31-9ABF462BA7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADA2C42-638F-4ECC-8A31-9ABF462BA7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADA2C42-638F-4ECC-8A31-9ABF462BA7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADA2C42-638F-4ECC-8A31-9ABF462BA7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F09F97-A997-42BE-A465-B59E8600CF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F09F97-A997-42BE-A465-B59E8600CF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F09F97-A997-42BE-A465-B59E8600CF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F09F97-A997-42BE-A465-B59E8600CF67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BFCD09-641D-4E57-BCBF-2006216422D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BFCD09-641D-4E57-BCBF-2006216422D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BFCD09-641D-4E57-BCBF-2006216422D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BFCD09-641D-4E57-BCBF-2006216422D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16F3C37-BC7B-4711-8E09-E33F224A35BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16F3C37-BC7B-4711-8E09-E33F224A35BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16F3C37-BC7B-4711-8E09-E33F224A35BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16F3C37-BC7B-4711-8E09-E33F224A35BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49B7839F-DB7F-4A1C-AB59-51FCFFE89F26} = {0BE81C56-3F66-4ADE-BB7A-4138B927D02D}
+		{6438CBE5-89E4-43FB-9713-2D1C13C79EC9} = {49B7839F-DB7F-4A1C-AB59-51FCFFE89F26}
+		{E7EB6978-7DD4-4B43-A56A-3B59B27CEF9B} = {49B7839F-DB7F-4A1C-AB59-51FCFFE89F26}
+		{78256E3C-6304-43B7-BA66-33E7FE32E766} = {49B7839F-DB7F-4A1C-AB59-51FCFFE89F26}
+		{F1C60F3A-646F-4604-9C20-9FF73CD3588F} = {0BE81C56-3F66-4ADE-BB7A-4138B927D02D}
+		{9B671047-E48A-4AF1-93A8-D97949F3986B} = {0BE81C56-3F66-4ADE-BB7A-4138B927D02D}
+		{6D5543A2-9138-4058-94EE-307254A123FA} = {6438CBE5-89E4-43FB-9713-2D1C13C79EC9}
+		{DADA2C42-638F-4ECC-8A31-9ABF462BA7E2} = {E7EB6978-7DD4-4B43-A56A-3B59B27CEF9B}
+		{B5F09F97-A997-42BE-A465-B59E8600CF67} = {78256E3C-6304-43B7-BA66-33E7FE32E766}
+		{94BFCD09-641D-4E57-BCBF-2006216422D6} = {6438CBE5-89E4-43FB-9713-2D1C13C79EC9}
+		{D16F3C37-BC7B-4711-8E09-E33F224A35BF} = {9B671047-E48A-4AF1-93A8-D97949F3986B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96E69086-78E8-4840-AA16-BD3D92DCB2AF}
+	EndGlobalSection
+EndGlobal
